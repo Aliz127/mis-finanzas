@@ -1,0 +1,25 @@
+{
+  "name": "mis-finanzas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "firebase": "^11.0.0",
+    "xlsx": "^0.18.5",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vite-plugin-pwa": "^0.21.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/android": "^6.2.0"
+  }
+}
